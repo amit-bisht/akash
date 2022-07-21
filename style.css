@@ -1,0 +1,37 @@
+.navbar-nav .nav-item img{
+	width: 29%;
+}
+.container-fluid .heading_acuity_categoery{
+	margin-top: 2%;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+    margin-left: 43%;
+}
+.div_for_form{
+	border: 1px solid black;
+	height: 30%;
+}
+
+
+body {
+  background-color:#17a2b8;
+  margin: 0 auto;
+}
+
+#wrapper {
+  height: 100%;
+  background: #fff;
+  margin: 0px auto 0;
+  padding: 20px;
+  margin-top: 2%;
+  width: 90%;
+}
+/* Div Layout Styling */
+#wrapper .form-group .row label{	
+	font-family: poppins;
+	font-size: 14px;
+}
+.patient_details{
+	padding: 3%;
+}
