@@ -82,7 +82,7 @@ session_start();
          		<label>- Complicated Procedures</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" name="pulseox" value="1" value="pulseox" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="pulseox" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Pulse Ox</label>
@@ -90,7 +90,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="Foleys" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Foley's</label>
@@ -98,7 +98,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="Oral Care" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Oral Care</label>
@@ -110,7 +110,7 @@ session_start();
          		<label>- Education</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Standard (i.e DM,HF)</label>
@@ -123,7 +123,7 @@ session_start();
          		<label>- Psychosocial</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Mental Disabilities</label>
@@ -135,7 +135,7 @@ session_start();
          		<label>- Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>1-5 No</label>
@@ -147,7 +147,7 @@ session_start();
          		<label>- Complicated IV Drugs & Other Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Use of Glucometer</label>
@@ -176,7 +176,7 @@ session_start();
          		<label>- Complicated Procedures</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>>4LO2 NC</label>
@@ -184,7 +184,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>BiPAP/CPAP</label>
@@ -192,7 +192,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Routine Tracheal care</label>
@@ -200,7 +200,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>PICC/Central line</label>
@@ -209,7 +209,7 @@ session_start();
 
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>NG tube</label>
@@ -217,7 +217,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Incontinent PCA</label>
@@ -225,7 +225,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Rectal Tube</label>
@@ -233,7 +233,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Isolation</label>
@@ -241,7 +241,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Fall risk</label>
@@ -253,7 +253,7 @@ session_start();
          		<label>- Education</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>New Meds, side effects</label>
@@ -266,7 +266,7 @@ session_start();
          		<label>- Psychosocial</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>End of life care</label>
@@ -278,7 +278,7 @@ session_start();
          		<label>- Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>6-10 No</label>
@@ -290,7 +290,7 @@ session_start();
          		<label>- Complicated IV Drugs & Other Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>2-5 IV meds</label>
@@ -322,7 +322,7 @@ session_start();
          		<label>- Complicated Procedures</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>HighflowO2/Vent</label>
@@ -330,7 +330,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Continuous  BiPAP/CPAP</label>
@@ -338,7 +338,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Trachea/Frequent Suctioning</label>
@@ -346,7 +346,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Wound/skin care</label>
@@ -355,7 +355,7 @@ session_start();
 
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Ostomy</label>
@@ -363,7 +363,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Assist W/ADLS</label>
@@ -371,7 +371,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Vitals/neuro check q2h</label>
@@ -379,7 +379,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Continuous bladder irrigation Chest Tube</label>
@@ -387,7 +387,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Chest Tube</label>
@@ -395,7 +395,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Peritoneal Dialysis Opioid/Alcoholwithdrawal assessment</label>
@@ -407,7 +407,7 @@ session_start();
          		<label>- Education</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Discharge Today</label>
@@ -415,7 +415,7 @@ session_start();
          	</div>
          	<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Family Education</label>
@@ -423,7 +423,7 @@ session_start();
          	</div>
          	<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Pre/Post Procedure</label>
@@ -436,7 +436,7 @@ session_start();
          		<label>- Psychosocial</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Palliative Care</label>
@@ -448,7 +448,7 @@ session_start();
          		<label>- Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>11-15</label>
@@ -460,7 +460,7 @@ session_start();
          		<label>- Complicated IV Drugs & Other Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>2-5 IV meds</label>
@@ -487,7 +487,7 @@ session_start();
          		<label>- Complicated Procedures</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Total Care</label>
@@ -495,7 +495,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Restraints</label>
@@ -503,7 +503,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Total Feed</label>
@@ -511,7 +511,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Confused/Restless</label>
@@ -520,7 +520,7 @@ session_start();
 
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>High Risk for fall</label>
@@ -528,7 +528,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>High risk for Pressure Injury</label>
@@ -536,7 +536,7 @@ session_start();
          		</div>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Post Code/RRS</label>
@@ -544,7 +544,7 @@ session_start();
 		         		</div>
 		         		<!-- <div class="row">
 		         			<div class="col-sm-3">
-		         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+		         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
 		         			</div>
 		         			<div class="col-sm-9">
 		         				<label>Chest Tube</label>
@@ -552,7 +552,7 @@ session_start();
 		         		</div> -->
          		<!-- <div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Peritoneal Dialysis Opioid/Alcoholwithdrawal assessment</label>
@@ -564,7 +564,7 @@ session_start();
          		<label>- Education</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>New Diagnosis Multiple comorbidities</label>
@@ -577,7 +577,7 @@ session_start();
          		<label>- Psychosocial</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Personal or family dynamics</label>
@@ -589,7 +589,7 @@ session_start();
          		<label>- Medications</label>
 	         		<div class="row">
 	         			<div class="col-sm-3">
-	         				<input type="checkbox" name="choice" value="1" onchange="checkTotal()"/>
+	         				<input type="checkbox" name="choice[]" value="1" onchange="checkTotal()"/>
 	         			</div>
 	         			<div class="col-sm-9">
 	         				<label>16 or >16</label>
@@ -602,7 +602,7 @@ session_start();
          		<label>- Complicated IV Drugs & Other Medications</label>
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" name="option[]" value="1" value="Blood_Products" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" name="option[]" value="1" value="Blood_Products" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Blood / blood products</label>
@@ -611,7 +611,7 @@ session_start();
 
          		<div class="row">
          			<div class="col-sm-3">
-         				<input type="checkbox" name="choice" name="option[]" value="1" value="Cardiac_drip" onchange="checkTotal()"/>
+         				<input type="checkbox" name="choice[]" name="option[]" value="1" value="Cardiac_drip" onchange="checkTotal()"/>
          			</div>
          			<div class="col-sm-9">
          				<label>Cardiac Drip(Amioderone, cardizem, dopamine) Insulin Drip</label>
@@ -652,9 +652,12 @@ session_start();
 	function checkTotal() {
 		document.listForm.total.value = '';
 		var sum = 0;
-		for (i=0;i<document.listForm.choice.length;i++) {
-		  if (document.listForm.choice[i].checked) {
-		  	sum = sum + parseInt(document.listForm.choice[i].value);
+		for (i=0;i<document.listForm.choice[].length;i++) {
+		  if (document.listForm.choice[][i].checked) {
+		  	// sum = sum + parseInt(document.listForm.choice[][i].value);
+			alert("checked");
+		  }else{
+			alert("unchecked");
 		  }
 		}
 		document.listForm.total.value = sum;
